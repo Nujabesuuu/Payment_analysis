@@ -1,0 +1,9 @@
+# Python 3.13
+# Встановлення:  python -m venv .venv && .venv/bin/pip install -r requirements.txt
+
+duckdb==1.5.5          # SQL-рушій, читає parquet напряму
+pandas==3.0.5          # робота з результатами запитів
+numpy==2.5.2           # масиви для теплокарти і графіків
+scipy==1.18.0          # z-тест, хі-квадрат, тест Манна-Вітні
+matplotlib==3.11.1     # графіки
+ipykernel==7.3.0       # запуск ноутбука
